@@ -2,3 +2,10 @@ vertica-python
 numpy
 typer[all]
 python-dotenv
+numpy
+pandas
+geopy
+wheel
+geopy
+geopandas
+gdal

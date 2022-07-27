@@ -1,8 +1,7 @@
-
+from db import refresh
 
 def main():
     func_dict = {"1": refresh, '2': main }
-
     print("-")
     print("-")
     print("-")
@@ -25,7 +24,4 @@ def main():
         print(user_response)
     finally:
         print("Close")
-
-def refresh():
-    print("refreshed")
 
